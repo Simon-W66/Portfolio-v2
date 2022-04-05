@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio-v2/static/css/main.d03f23c1.css",
+    "main.js": "/Portfolio-v2/static/js/main.60879c0e.js",
+    "static/js/787.65a6ee05.chunk.js": "/Portfolio-v2/static/js/787.65a6ee05.chunk.js",
+    "static/media/NeoTheMatrix.jpg": "/Portfolio-v2/static/media/NeoTheMatrix.6c1458962c11735f6251.jpg",
+    "index.html": "/Portfolio-v2/index.html",
+    "main.d03f23c1.css.map": "/Portfolio-v2/static/css/main.d03f23c1.css.map",
+    "main.60879c0e.js.map": "/Portfolio-v2/static/js/main.60879c0e.js.map",
+    "787.65a6ee05.chunk.js.map": "/Portfolio-v2/static/js/787.65a6ee05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d03f23c1.css",
+    "static/js/main.60879c0e.js"
+  ]
+}
