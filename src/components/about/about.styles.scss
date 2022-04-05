@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about{
+    position: relative;
+    top: 255px;
+    background-color: rgb(0, 255, 221);
+    padding:  4rem 0rem;
+    opacity: 0.8;
+    width: 100%;
+    .about_text{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-image{
+        img{
+            border-radius: 10rem;
+            height: 300px;
+        }  
+    }
+    p{
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        width: 550px;
+    }
+    h1{
+        font-size: 82px;
+    }
+    .span_the{
+        font-style: italic;
+        color: black;
+    }
+    .span_the_2{
+        font-weight: bold;
+        color: rgb(199, 194, 194);
+    }
+}
+#about-id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}

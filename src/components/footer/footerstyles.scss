@@ -1,0 +1,25 @@
+.footer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .arrow{
+        width:100px;
+        height: 100px;
+        color: rgb(139, 139, 139);
+        font-weight: 100;
+        border: 1px solid gray;
+        border-radius: 250px;
+        margin-bottom: 50px;
+    }
+    .medias{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .icon{
+        font-size: 55px;
+        margin: 25px;
+        }
+    
+    }
+}

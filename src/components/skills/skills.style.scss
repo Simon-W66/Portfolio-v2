@@ -1,0 +1,45 @@
+.projects_sec{
+    margin-top: 400px;
+    margin-bottom: 150px;
+    .carousel{
+        display: flex;
+        justify-content: center;
+        
+        .slider{
+            background-color: rgb(251, 255, 254);
+            margin-bottom: 20px;
+            padding: 50px 0px ;
+            border-radius: 30px;
+            box-shadow: 0px 0px 2px rgb(236, 236, 236);
+            //justify-content: center; CANT USE, CAUSE IT REMOVE 3,4th slide... empty
+            .left-side{
+                h1{
+                    font-weight: 700;
+                    font-size: 22px;
+                    //color: rgb(193, 145, 255);
+                }
+                h3{
+                    font-size: 300;
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 20px;
+                    //max-width: 900px;
+                    //align-items: center;
+                }
+                .link_p{
+                    padding: 5px 7px;
+                    font-size: 18px;
+                    background-color: white;
+                    opacity: 0.5;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        opacity: 1;
+                    }
+                }
+            }
+
+        }
+    }
+}
