@@ -1,3 +1,4 @@
+
 body{
     padding: 0;
     margin: 0;
@@ -15,24 +16,29 @@ body{
         margin-top: 25px;
         margin-bottom: 25px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        
     }
-    .about-image{
+    .left-side{
+
+        .about-image{
         img{
             border-radius: 10rem;
             height: 300px;
-        }  
-    }
+            }  
+        }
+        h1{
+            font-size: 82px;
+        }
+        }
     p{
         color: white;
         font-weight: bold;
         font-size: 22px;
         width: 550px;
     }
-    h1{
-        font-size: 82px;
-    }
+    
     .span_the{
         font-style: italic;
         color: black;
@@ -47,4 +53,18 @@ body{
     justify-content: center;
     align-items: center;
     margin: 100px 0;
+}
+@media screen and (max-width: 450px){
+    .about{
+        .about_text{
+            flex-direction: column;
+            padding: 0;
+        }
+        
+            p{
+                width: 370px;
+                font-size: 18px;
+            }
+        
+    }
 }

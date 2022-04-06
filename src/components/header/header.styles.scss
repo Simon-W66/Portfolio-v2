@@ -58,7 +58,7 @@ body {
   
   &::before {
     content: "Šimon Hančak";
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 100;
     font-style: normal;
   }
@@ -66,7 +66,7 @@ body {
 
 #myElement{
   margin-top: 40px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .span{
@@ -79,4 +79,10 @@ body {
   align-items: center;
   position: relative;
   top: -150px;
+}
+
+@media screen and (max-width: 450px){
+  .Header{
+    font-size: 20px;
+  }
 }

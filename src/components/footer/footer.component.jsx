@@ -14,14 +14,14 @@ const c_year = d.getFullYear()
 const Footer = () => {
     return ( 
         <div className="footer">
-            <a href="#"><ArrowUpwardIcon className="arrow"/></a>
+            <a href="#"><ArrowUpwardIcon className="arrow btn-save"/></a>
             
             <div className="medias">
-                <a href=""><LinkedInIcon className="icon" style={{color: "rgb(145, 255, 249)"}}/></a>
+                <a href="https://www.linkedin.com/"><LinkedInIcon className="icon" style={{color: "rgb(145, 255, 249)"}}/></a>
                 <a href="https://github.com/Simon-W66"><GitHubIcon className="icon" style={{color: "rgb(145, 255, 173)"}}/></a>
-                <a href=""><EmailIcon className="icon" style={{color: "rgb(255, 162, 145)"}} /></a>
-                <a href=""><TwitterIcon className="icon" style={{color: "rgb(255, 239, 145)"}}/></a>
-                <a href=""><InstagramIcon className="icon" style={{color: "rgb(193, 145, 255)"}} /></a>
+                <a href="patrixstar565@gmail.com"><EmailIcon className="icon" style={{color: "rgb(255, 162, 145)"}} /></a>
+                <a href="#"><TwitterIcon className="icon" style={{color: "rgb(255, 239, 145)"}}/></a>
+                <a href="#"><InstagramIcon className="icon" style={{color: "rgb(193, 145, 255)"}} /></a>
                     
             </div>
             <div className="footer-inf">
